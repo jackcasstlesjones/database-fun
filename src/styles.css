@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 30px;
+  height: 300px;
+  width: 200px;
+  background-color: #ffc100;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.text-container {
+  margin-top: 20px;
+}
+
+form {
+  padding: 50px;
+  background-color: wheat;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+}
+
+button {
+  margin-top: 50px;
+}
