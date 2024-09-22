@@ -25,7 +25,7 @@ const supabaseURL = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 
 // Initialize Supabase client
-const supabase = createClient(supabaseURL, supabaseKey);
+// const supabase = createClient(supabaseURL, supabaseKey);
 
 // Route to serve the main HTML file
 app.get("/", (req, res) => {
