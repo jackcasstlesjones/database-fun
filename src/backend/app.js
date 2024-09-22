@@ -31,6 +31,10 @@ const supabase = createClient(supabaseURL, supabaseKey);
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "index.html"));
 });
+// Route to serve the main HTML file
+app.get("/about", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "about.html"));
+});
 
 app.post("/add", async (request, response) => {
   const dataToInsert = req.body;
